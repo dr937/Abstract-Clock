@@ -1,5 +1,6 @@
 function setup() {
   createCanvas(500, 500);
+  frameRate(1);
 }
 
 function draw() {
