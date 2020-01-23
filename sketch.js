@@ -11,7 +11,7 @@ function draw() {
     fill(s)
     circle(250,250,150)
     
-    let m1 = map(minute(), 0, 60, 0, 300) // minutes mapping
+    let m1 = map(minute(), 0, 60, 0, 150) // minutes mapping
     fill(252, 212, 0)
     circle(250, 250, m1)   
   
