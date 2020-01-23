@@ -9,7 +9,7 @@ function draw() {
     background(135,206,235);  
     let s = color(255, 255, 140) //Sun Color 
     fill(s)
-    circle(250,250,300)
+    circle(250,250,150)
     
     let m1 = map(minute(), 0, 60, 0, 300) // minutes mapping
     fill(252, 212, 0)
