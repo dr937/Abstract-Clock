@@ -18,7 +18,7 @@ function draw() {
     stroke(255,139,150) 
     strokeWeight(2)
     noFill()
-    let m = map(second(), 0, 60, 0, 300) //radius map
+    let m = map(second(), 0, 60, 0, 150) //radius map
     circle(250, 250, m) //inner circle (seconds) 
     
     stroke(252,212,0)
