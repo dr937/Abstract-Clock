@@ -23,7 +23,7 @@ function draw() {
   
     if (second() = 0)
     {
-      console.log(minute());
+      print(minute());
     }
     
     stroke(252,212,0);
