@@ -20,11 +20,6 @@ function draw() {
     noFill()
     let m = map(second(), 0, 60, 0, 150); //radius map
     circle(250, 250, m) //inner circle (seconds) 
-  
-    if (second() = 0)
-    {
-      print(minute());
-    }
     
     stroke(252,212,0);
     strokeWeight(6);
