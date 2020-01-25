@@ -18,15 +18,16 @@ function draw() {
     stroke(255,139,150) 
     strokeWeight(2)
     noFill()
-    let m = map(second(), 0, 60, 0, 150) //radius map
+    let m = map(second(), 0, 60, 0, 150); //radius map
     circle(250, 250, m) //inner circle (seconds) 
+  
     if (second() = 0)
     {
-      console.log(minute())
+      console.log(minute());
     }
     
-    stroke(252,212,0)
-    strokeWeight(6)
+    stroke(252,212,0);
+    strokeWeight(6);
     
       if(hour() > 0)
         line(250, 100, 250, 65) //line 1 done
