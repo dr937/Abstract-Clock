@@ -70,4 +70,9 @@ function draw() {
         line(175,119,156,81) //line 22 done
       if(hour() > 22)
         line(212, 104, 203, 68) //line 23 done
+  
+      if (second() = 0)
+      {
+          print(minute());
+      }
 }
