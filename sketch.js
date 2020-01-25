@@ -71,7 +71,7 @@ function draw() {
       if(hour() > 22)
         line(212, 104, 203, 68) //line 23 done
   
-      if (second() = 0)
+      if (second() == 0)
       {
           print(minute());
       }
