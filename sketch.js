@@ -1,7 +1,6 @@
 function setup() {
   createCanvas(500, 500);
   frameRate(60);
-  background('red');
 }
 function draw(){
   if (hour() > 12) {
