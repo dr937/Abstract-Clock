@@ -2,23 +2,31 @@ function setup() {
   createCanvas(500, 500);
   frameRate(60);
 }
+
 function draw(){
   if (hour() > 12) {
     background(96, 61, 192);
   } else {
-    background(130, 246, 246)
+    background(130, 246, 246);
   }
 
-  // Set colors
-  fill(250, 177, 205, 100);
-  stroke(0, 0, 0, 15);
+  // Set color
+  stroke(214, 109, 134, 20);
   
   
-  translate(250, 250)
-  noStroke()
+  translate(250, 250);
   for (let i = 0; i < 12; i ++) {
-    ellipse(0, 30, 30, 150);
-    rotate(PI/6);
+    if (hour()%12 === 0){
+      continue;
+    } else if (hour()%12 > i){
+      fill(250, 177, 205, 170);
+      ellipse(0, 30, 30, 150);
+      rotate(PI/6);
+    } else {
+      fill(250, 177, 205, 25);
+      ellipse(0, 30, 30, 150);
+      rotate(PI/6);
+    }
   }
 }
 /*function draw() {
