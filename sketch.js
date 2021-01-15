@@ -14,10 +14,10 @@ function draw(){
   stroke(133, 129, 130);
   
   
-  translate(250, 310)
+  translate(250, 250)
   noStroke()
   for (let i = 0; i < 12; i ++) {
-    ellipse(0, 30, 40, 150);
+    ellipse(0, 30, 30, 150);
     rotate(PI/6);
   }
 }
