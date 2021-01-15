@@ -15,7 +15,7 @@ function draw(){
 
   // A design for a simple flower
   for (let i = 0; i < 12; i ++) {
-    ellipse(0, 30, 20, 80);
+    ellipse(250, 290, 20, 80);
     rotate(PI/6);
   }
 }
