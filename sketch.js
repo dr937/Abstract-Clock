@@ -11,7 +11,7 @@ function draw(){
 
   // Set colors
   fill(250, 177, 205, 100);
-  stroke(133, 129, 130);
+  stroke(0, 0, 0, 100);
   
   
   translate(250, 250)
