@@ -3,7 +3,11 @@ function setup() {
   frameRate(60);
 }
 function draw(){
-  background(200);
+  if (hour() > 12) {
+    background(96, 61, 192);
+  } else {
+    background(130, 246, 246)
+  }
 
   // Set colors
   fill(204, 101, 192, 127);
