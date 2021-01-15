@@ -1,10 +1,8 @@
 function setup() {
   createCanvas(500, 500);
-  frameRate(1);
+  frameRate(60);
 }
-function setup() {
-  // Create the canvas
-  createCanvas(500, 500);
+function draw(){
   background(200);
 
   // Set colors
