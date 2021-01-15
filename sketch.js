@@ -10,7 +10,7 @@ function draw(){
   }
 
   // Set colors
-  fill(250, 177, 205);
+  fill(250, 177, 205, 100);
   stroke(133, 129, 130);
   
   
