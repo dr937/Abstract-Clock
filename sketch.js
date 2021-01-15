@@ -2,8 +2,22 @@ function setup() {
   createCanvas(500, 500);
   frameRate(1);
 }
+function setup() {
+  // Create the canvas
+  createCanvas(500, 500);
+  background(200);
 
-function draw() {
+  // Set colors
+  fill(204, 101, 192, 127);
+  stroke(127, 63, 120);
+
+  // A design for a simple flower
+  for (let i = 0; i < 12; i ++) {
+    ellipse(0, 30, 20, 80);
+    rotate(PI/6);
+  }
+}
+/*function draw() {
     stroke(255,255,140)
     strokeWeight(8)
     background(135,206,235);  
@@ -76,3 +90,4 @@ function draw() {
           print(minute());
       }
 }
+*/
