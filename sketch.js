@@ -29,7 +29,10 @@ function draw(){
       ellipse(0, 30, 30, 150);
       rotate(PI/6);
     }
-  
+  if (second() == 0)
+      {
+          print(minute());
+      }
   }
   //Seconds timer
   if (hour() < 12){
